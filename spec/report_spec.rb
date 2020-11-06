@@ -10,5 +10,9 @@ describe Report do
     it 'returns the string Amber' do
         expect(subject.score("Amber")).to eq("Amber")
       end
+    
+    it 'returns the string Red' do
+      expect(subject.score("Red")).to eq("Red")
+    end
   end
 end
