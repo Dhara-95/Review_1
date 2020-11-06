@@ -1,6 +1,10 @@
 class Report
 
   def score(string)
-    "Green"
+    if string == "Green"
+      "Green"
+    else
+      "Amber"
+    end
   end
 end
